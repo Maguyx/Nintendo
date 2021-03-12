@@ -3,9 +3,14 @@ package metier;
 public class Console {
 
 	private String nom;
+	private Double prix;
+	private String dateSortie;
+	
 
-	public Console(String nom) {
+	public Console(String nom, Double prix, String dateSortie) {
 		this.nom = nom;
+		this.prix = prix;
+		this.dateSortie = dateSortie;
 	}
 
 	public String getNom() {
