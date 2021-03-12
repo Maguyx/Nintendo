@@ -7,17 +7,17 @@ public class Client {
 	
 	private String nom;
 	private String prenom;
-	private List<Jeu> listDeJeu= new ArrayList();
+	private List<Achat> listeAchat= new ArrayList();
 	
 	
 	
 	public Client() {
 	}
 	
-	public Client(String nom, String prenom, List<Jeu> listDeJeu) {
+	public Client(String nom, String prenom, List<Achat> listeAchat) {
 		this.nom = nom;
 		this.prenom = prenom;
-		this.listDeJeu = listDeJeu;
+		this.listeAchat = listeAchat;
 	}
 	
 	public String getNom() {
@@ -32,16 +32,16 @@ public class Client {
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
 	}
-	public List<Jeu> getListDeJeu() {
-		return listDeJeu;
+	public List<Achat> getlisteAchat() {
+		return listeAchat;
 	}
-	public void setListDeJeu(List<Jeu> listDeJeu) {
-		this.listDeJeu = listDeJeu;
+	public void setListDeJeu(List<Achat> listeAchat) {
+		this.listeAchat = listeAchat;
 	}
 	
 	@Override
 	public String toString() {
-		return "Client [nom=" + nom + ", prenom=" + prenom + ", listDeJeu=" + listDeJeu + "]";
+		return "Client [nom=" + nom + ", prenom=" + prenom + ", listDeJeu=" + listeAchat + "]";
 	}
 	
 	
