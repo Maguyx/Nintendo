@@ -7,6 +7,10 @@ public class Console {
 	private String dateSortie;
 	
 
+	public Console(String nom) {
+		this.nom = nom;
+	}
+
 	public Console(String nom, Double prix, String dateSortie) {
 		this.nom = nom;
 		this.prix = prix;
