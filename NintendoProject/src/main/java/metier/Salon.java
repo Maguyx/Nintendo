@@ -7,4 +7,5 @@ public class Salon extends Console {
 		// TODO Auto-generated constructor stub
 	}
 
+	
 }
