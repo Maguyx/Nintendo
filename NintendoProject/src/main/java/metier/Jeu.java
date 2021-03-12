@@ -6,6 +6,7 @@ public class Jeu {
 
 	private String titre;
 	private List<Console> consoles;
+	private Boutique boutique;
 	
 	
 	
